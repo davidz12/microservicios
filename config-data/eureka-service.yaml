@@ -1,0 +1,6 @@
+server:
+  port:
+eureka:
+  client:
+    fetch-registrhy: false
+    register-with-eureka: false
