@@ -4,6 +4,4 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://localhost:8081  # Cambia el puerto si es diferente en tu Config Server
-  config:
-    import: configserver:http://localhost:8081  # Asegura la importación de propiedades desde Config Server
+      uri: http://localhost:8081
